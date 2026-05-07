@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Cards */
+.meals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mealImg {
+  width: 200px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mealImg img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mealImg button {
+  padding: 8px;
+  background: orange;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Detail */
+.mealInfo {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.mealInfo img {
+  width: 300px;
+}
